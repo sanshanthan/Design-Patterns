@@ -111,6 +111,10 @@
     <Compile Include="Migrations\201909150535550_111.Designer.cs">
       <DependentUpon>201909150535550_111.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201909150548592_-100.cs" />
+    <Compile Include="Migrations\201909150548592_-100.Designer.cs">
+      <DependentUpon>201909150548592_-100.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\CRUDDbContext.cs" />
     <Compile Include="Models\Employee.cs" />
@@ -129,6 +133,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
+    <Folder Include="Repositories\" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
@@ -136,6 +141,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201909150535550_111.resx">
       <DependentUpon>201909150535550_111.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201909150548592_-100.resx">
+      <DependentUpon>201909150548592_-100.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
