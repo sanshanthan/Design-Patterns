@@ -12,7 +12,7 @@ namespace RepositoryDesignPatternInASP.NETMVC.Models
         {
 
         }
-        public virtual DbSet<Employee> Courses { get; set; }
+        public virtual DbSet<Employee> Employees { get; set; }
 
     }
 }
